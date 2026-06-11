@@ -1,0 +1,36 @@
+﻿// Override or add CSS variables for your theme here
+
+:root {
+
+  @include media-breakpoint-up(md) {
+    --ds-header-logo-height: 40px;
+    --ds-header-height: 80px;
+  }
+  @include media-breakpoint-down(sm) {
+    --ds-header-logo-height: 50px;
+    --ds-header-height: 90px;
+  }
+
+  --ds-header-bg: #43515f;
+  --ds-header-icon-color: #fff;
+  --ds-header-navbar-border-bottom-color: #1e6f90;
+
+  --ds-banner-text-background: transparent;
+  --ds-banner-background-gradient-width: 300px;
+
+  --ds-header-navbar-border-bottom-height: 5px;
+
+  /* set the next two properties as `--ds-header-navbar-border-bottom-*`
+  in order to keep the bottom border of the header when navbar is expanded */
+
+  --ds-expandable-navbar-border-top-color: #{$white};
+  --ds-expandable-navbar-border-top-height: 0;
+  --ds-expandable-navbar-padding-top: 0;
+
+  --ds-item-page-img-field-default-inline-height: 24px;
+  --ds-item-page-img-field-ror-inline-height: var(--ds-item-page-img-field-default-inline-height);
+  --ds-header-icon-color: #ffffff;
+  --ds-header-icon-color-hover: #ec9433;
+  --ds-navbar-link-color: #ffffff;
+  --ds-navbar-link-hover-color: #ec9433;
+}

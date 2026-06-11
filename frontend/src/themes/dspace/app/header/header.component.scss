@@ -1,0 +1,37 @@
+:host {
+  #main-site-header {
+    min-height: var(--ds-header-height);
+
+    @include media-breakpoint-up(md) {
+      height: var(--ds-header-height);
+    }
+
+    background-color: var(--ds-header-bg);
+
+    &-container {
+      min-height: var(--ds-header-height);
+    }
+  }
+
+  img#header-logo {
+    height: calc(var(--ds-header-logo-height) * 1.4);
+  }
+
+  button#navbar-toggler {
+    color: var(--ds-header-icon-color);
+
+    &:hover, &:focus {
+      color: var(--ds-header-icon-color-hover);
+    }
+  }
+
+}
+.dvltch-logo {
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: white !important;
+  text-decoration: none !important;
+  font-family: 'Arial Black', sans-serif;
+}
+

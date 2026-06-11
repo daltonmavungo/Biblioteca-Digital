@@ -1,0 +1,189 @@
+﻿@import '../../../styles/_global-styles.scss';
+
+.facet-filter, .setting-option, .advanced-search {
+  background-color: var(--bs-light);
+  border-radius: var(--bs-border-radius);
+  &.p-3 {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+  .badge-secondary {
+    background-color: var(--bs-primary);
+  }
+  h4, .h4 {
+    font-size: 1.1rem
+  }
+}
+
+/* Banner - so imagem, sem fundo */
+.jumbotron {
+  background-image: url('../assets/images/messi.webp') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  min-height: 400px !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+.jumbotron .overlay { display: none !important; }
+.jumbotron::before { display: none !important; }
+.jumbotron::after { display: none !important; }
+.jumbotron .container,
+.jumbotron .container-fluid {
+  background-color: transparent !important;
+}
+.jumbotron h1,
+.jumbotron p {
+  color: #ffffff !important;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7) !important;
+}
+
+.search-button, ds-search-form button[type='submit'] {
+  background-color: #ec9433 !important;
+  border-color: #ec9433 !important;
+  color: #fff !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+  background-color: #f0f0f0 !important;
+  color: #333333 !important;
+}
+
+ds-collection-page, ds-community-page, ds-community-list-page,
+ds-item-page, ds-search-page, ds-profile-page, ds-login-page,
+ds-process-page, ds-admin-sidebar,
+ds-home-page, ds-root {
+  * { font-family: 'Roboto', sans-serif !important; }
+  h1, h2, h3, h4, h5, h6 { color: #ec9433 !important; font-weight: 500 !important; }
+  p, span, td, th, li { color: #333333 !important; }
+  a { color: #ec9433 !important; }
+  a:hover { color: #c97820 !important; }
+  .container, .container-fluid {
+    background-color: #f0f0f0 !important;
+    color: #333333 !important;
+  }
+  .card {
+    background-color: #e8e8e8 !important;
+    border: 1px solid #ec9433 !important;
+    color: #333333 !important;
+  }
+  table { background-color: #f0f0f0 !important; }
+  table th { background-color: #dcdcdc !important; color: #ec9433 !important; }
+  table td { color: #333333 !important; }
+  .btn-primary {
+    background-color: #ec9433 !important;
+    border-color: #c97820 !important;
+    color: #fff !important;
+  }
+  input, select, textarea {
+    background-color: #ffffff !important;
+    border: 1px solid #ec9433 !important;
+    color: #333333 !important;
+  }
+  .nav-tabs .nav-link { color: #ec9433 !important; }
+  .nav-tabs .nav-link.active {
+    background-color: #e8e8e8 !important;
+    color: #ec9433 !important;
+    border-color: #ec9433 !important;
+  }
+  .badge { background-color: #ec9433 !important; color: #fff !important; }
+  .alert-info {
+    background-color: #e8e8e8 !important;
+    border-color: #ec9433 !important;
+    color: #333333 !important;
+  }
+}
+
+/* Logo UOR maior com fundo branco */
+ds-header .navbar-brand img,
+ds-header a.navbar-brand img {
+  height: 55px !important;
+  width: 55px !important;
+  background-color: #ffffff !important;
+  padding: 4px !important;
+  border-radius: 4px !important;
+  object-fit: contain !important;
+}
+
+/* Icones canto superior direito visiveis */
+ds-header #header-right * {
+  color: #ffffff !important;
+}
+
+/* Forcar icones header direito */
+ds-search-navbar button,
+ds-lang-switch button,
+ds-lang-switch a,
+ds-auth-nav-menu button,
+ds-auth-nav-menu a,
+ds-context-help-toggle button {
+  color: #ffffff !important;
+}
+ds-search-navbar button:hover,
+ds-lang-switch button:hover,
+ds-lang-switch a:hover,
+ds-auth-nav-menu button:hover,
+ds-auth-nav-menu a:hover {
+  color: #ec9433 !important;
+}
+
+/* Forcar icones header direito */
+ds-search-navbar button,
+ds-lang-switch button,
+ds-lang-switch a,
+ds-auth-nav-menu button,
+ds-auth-nav-menu a,
+ds-context-help-toggle button {
+  color: #ffffff !important;
+}
+ds-search-navbar button:hover,
+ds-lang-switch button:hover,
+ds-lang-switch a:hover,
+ds-auth-nav-menu button:hover,
+ds-auth-nav-menu a:hover {
+  color: #ec9433 !important;
+}
+
+/* Corrigir header - fundo escuro e links visiveis */
+ds-header #main-site-header {
+  background-color: #43515f !important;
+}
+ds-header .navbar a,
+ds-header nav a,
+ds-header #header-left a:not(.navbar-brand) {
+  color: #ffffff !important;
+}
+ds-header #header-right button,
+ds-header #header-right a {
+  color: #ffffff !important;
+}
+
+/* Corrigir header - fundo escuro e links visiveis */
+ds-header #main-site-header {
+  background-color: #43515f !important;
+}
+ds-header .navbar a,
+ds-header nav a,
+ds-header #header-left a:not(.navbar-brand) {
+  color: #ffffff !important;
+}
+ds-header #header-right button,
+ds-header #header-right a {
+  color: #ffffff !important;
+}
+
+/* Corrigir header - fundo escuro e links visiveis */
+ds-header #main-site-header {
+  background-color: #43515f !important;
+}
+ds-header .navbar a,
+ds-header nav a,
+ds-header #header-left a:not(.navbar-brand) {
+  color: #ffffff !important;
+}
+ds-header #header-right button,
+ds-header #header-right a {
+  color: #ffffff !important;
+}

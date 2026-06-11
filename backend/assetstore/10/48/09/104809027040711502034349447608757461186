@@ -1,0 +1,4 @@
+2026-06-10 00:15:25.437 INFO curate - 2 @ The script has started
+2026-06-10 00:15:25.887 INFO curate - 2 @ Curation task: noop performed on: 123456789/2 with status: -2
+2026-06-10 00:15:25.909 INFO curate - 2 @ Curation task: noop performed on: 123456789/3 with status: -2
+2026-06-10 00:15:26.159 INFO curate - 2 @ The script has completed

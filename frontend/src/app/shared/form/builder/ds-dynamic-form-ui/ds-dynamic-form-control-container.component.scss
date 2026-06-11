@@ -1,0 +1,26 @@
+:host ::ng-deep {
+  // For proper scoping, do not include the .css file suffix here
+  @import "../../form.component";
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+:host ::ng-deep .custom-select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.invalid-feedback {
+  margin-top: 0;
+}
+
+.col-form-label {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0.5rem;
+}
