@@ -1,0 +1,16 @@
+﻿# Frontend - node_modules e build
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# Backend - logs e temporarios
+backend/log/
+backend/solr/
+backend/work/
+
+# Ficheiros de sistema
+.DS_Store
+Thumbs.db
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
