@@ -19,3 +19,5 @@ backend/solr/
 backend/work/
 backend/log/
 backend/webapps/
+backend/apache-maven*/
+backend/assetstore/
