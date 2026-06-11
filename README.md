@@ -127,7 +127,7 @@ Biblioteca-Digital/
 
 | Utilizador | Email | Perfil | Permissões |
 |---|---|---|---|
-| José Dalton Mavungo | josedalton258@gmail.com | Administrador | Acesso total |
+|  Dalton Mavungo | josedalton258@gmail.com | Administrador | Acesso total |
 | Adelino Miala | adelinomiala@gmail.com | Submissor | Submeter itens |
 | Ester Alexandre | esteralexandre@gmail.com | Editor | Editar e gerir itens |
 | Telma Simão | telmasimao@gmail.com | Leitor | Ler e ver documentos |
@@ -160,7 +160,4 @@ O tema personalizado DVLTCH inclui:
 
 ## Autor
 
-**José Dalton Mavungo**
-Estudante de Engenharia Informática e Comunicações
-Universidade Óscar Ribas (UÓR) — Nº 20221730
-Luanda, Angola — 2026
+**Dalton Mavungo**
