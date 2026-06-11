@@ -1,6 +1,6 @@
 # DVLTCH — Repositório Digital do Laboratório de Desenvolvimento Humano por Tecnologia
 
-> Repositório institucional digital baseado no DSpace 8.0, desenvolvido no âmbito do estágio curricular do curso de Engenharia Informática e Comunicações da Universidade Óscar Ribas (UÓR).
+> Repositório institucional digital baseado no DSpace 8.0.
 
 ---
 
@@ -25,7 +25,7 @@
 
 ## Descrição
 
-O **DVLTCH** é um repositório digital institucional desenvolvido para o **Laboratório de Desenvolvimento Humano por Tecnologia** da Universidade Óscar Ribas (UÓR), em Luanda, Angola.
+O **DVLTCH** é um repositório digital institucional desenvolvido para o **Laboratório de Desenvolvimento Humano por Tecnologia** 
 
 O sistema permite:
 - Armazenar e organizar documentos académicos e científicos
@@ -249,8 +249,4 @@ src/themes/custom/styles/_global-styles.scss
 
 ## Autor
 
-**José Dalton Mavungo**
-Estudante de Engenharia Informática e Comunicações
-Universidade Óscar Ribas (UÓR) — Nº 20221730
-Estágio no Laboratório de Electrónica e Telecomunicações
-Luanda, Angola — 2026
+** Dalton Mavungo**
