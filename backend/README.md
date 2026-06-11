@@ -210,7 +210,7 @@ DVLTCH (Frontend)
 
 | Utilizador | Email | Perfil | Permissões |
 |---|---|---|---|
-| José Dalton Mavungo | josedalton258@gmail.com | Administrador | Acesso total |
+| Dalton Mavungo | josedalton258@gmail.com | Administrador | Acesso total |
 | Adelino Miala | adelinomiala@gmail.com | Submissor | Submeter itens |
 | Ester Alexandre | esteralexandre@gmail.com | Editor | Editar e gerir itens |
 | Telma Simão | telmasimao@gmail.com | Leitor | Ler e ver documentos |
